@@ -1,0 +1,179 @@
+/*____Global____*/
+body{
+    padding: 0;
+    margin: 0; 
+}
+
+/*____Header____*/
+header{
+    padding: 0;
+    overflow: hidden;
+    background-color: #4153a7;
+}
+.headerWrapper > img{
+    height: 50px;
+    padding: 20px 0 15px;
+}
+.headerWrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.loginFields{
+    float: right;
+}
+.loginFields > div{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 8px;
+}
+.loginFields > div p{
+    color: white;   
+    margin: 10px 0px 5px;
+}
+input[type="button"] {
+    background-color: blue;
+    border: none;
+    padding: 5px 10px;
+    margin: 35px 0px;
+    color: white;
+    box-shadow: 0px 0 3px black;
+}
+.loginFields > div a{
+    color: lightblue;   
+    text-decoration: none;
+}
+.email, .password{
+    padding: 5px 10px;
+    border: 2px solid black;
+}
+
+/*____Main Content____*/
+.mainContent{
+    overflow: hidden;
+    background-image: linear-gradient(0deg, #eaeaea, white);
+}
+.mainContentWrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+    /*____Main Content Image____*/
+.forminfo{
+    float: left;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 40px 0;
+    max-width: 50%;
+}
+.facebookImage{
+    width: 90%;
+}
+
+
+    /*____Form Style____*/
+.form{
+    float: right;
+    max-width: 50%;
+}
+.form h1{
+    font-size: 3em;
+<<<<<<< HEAD
+    margin: 20px 0;
+=======
+    margin: 10px 0;
+>>>>>>> 84fe88a7be5003e59842e9f0c647ef3fd8b4d20f
+}
+.form h4{
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+<<<<<<< HEAD
+.nameWrapper{
+    width: 100%;
+}
+.firstName, .surName{
+    display: inline-block;
+    margin: 10px 5px 10px 0;
+    max-width: 47%;
+}
+.firstName input, .surName input{
+    border-radius: 5px;
+    width: 100%;
+    padding: 8px;
+    border: 2px solid lightgrey;
+    font-size: 1.1em;
+}
+.surName{
+     float: right;
+}
+=======
+.firstName, .surName{
+    display: inline-block;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+    width: 45%;
+    margin: 10px 5px 10px 0;
+    font-size: 1.1em;
+}
+>>>>>>> 84fe88a7be5003e59842e9f0c647ef3fd8b4d20f
+.mobileEmail, .formPassword{
+    display: block;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid lightgrey;
+<<<<<<< HEAD
+    width: 100%;
+=======
+    width: 95%;
+>>>>>>> 84fe88a7be5003e59842e9f0c647ef3fd8b4d20f
+    margin: 0px 5px 10px 0;
+    font-size: 1.1em;
+}
+label p{
+    color: grey;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.termsConditions{
+    font-size: small;
+}
+.submitBtn{
+    background-image: linear-gradient(0deg, darkgreen, green);
+    color: white;
+    text-align: center;
+    width: 35%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+}
+.lastFormLine{
+    margin: 30px 0 15px;
+}
+/*____Footer____*/
+footer{
+<<<<<<< HEAD
+=======
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0%);
+>>>>>>> 84fe88a7be5003e59842e9f0c647ef3fd8b4d20f
+    width: 1200px;
+    max-width: 1200px;
+    margin: 10px auto;
+}
+<<<<<<< HEAD
+.footerElements{
+    width: 100%;
+}
+=======
+>>>>>>> 84fe88a7be5003e59842e9f0c647ef3fd8b4d20f
+.footerElements span{
+    margin-right: 20px;
+    line-height: 25px;
+}
+.footerElements a{
+    text-decoration: none;
+}

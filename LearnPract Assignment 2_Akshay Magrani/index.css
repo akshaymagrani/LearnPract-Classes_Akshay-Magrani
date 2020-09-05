@@ -1,0 +1,35 @@
+body{
+    margin: none;
+    padding: none;
+}
+header{
+        text-align: center;
+}
+div{
+    width: 700px;
+    height: 600px;
+    margin: 0.5em;
+    background-color: #008080;
+    border-radius : 25px;
+    padding: 25px;
+    position: relative;
+}
+ol{
+    position: absolute; 
+    top: 170px;
+}
+em{
+    display: block;
+    margin: 0.5em 0 2em;
+    padding: 10px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+cite{
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    left: 40vw;
+}

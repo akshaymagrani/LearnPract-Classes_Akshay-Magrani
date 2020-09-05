@@ -1,0 +1,72 @@
+body{
+    margin: none;
+    padding: none;
+}
+/*____Assignment Question with ID Selector____*/
+#question{
+    text-align: center;
+    margin: 1em auto 0.3em;
+    font-size: 2.5em;
+}
+.blockInlineHeading{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+/*____Answer Section with Tag Selector____*/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+/*____Block and Inline Divisions and its incorporated Tags styles with 
+Descendent Selector (space), 
+Child Selector ( > ) and 
+Adjacent Selector ( + )
+____*/
+
+.blockElementsDiv, .inlineElementsDiv{
+    width: 700px;
+    height: 600px;
+    margin: 0.5em;
+    background-color: #008080;
+    border-radius : 25px;
+    padding: 25px;
+    position: relative;
+}
+/*_____Descendent Selector (space)____*/
+.blockElementDiv ol, .inlineElementDiv ol {
+    position: absolute; 
+    top: 170px;
+    margin: 0.3em;
+}
+
+/*_____Child Selector ( > )____*/
+h2 + em{
+    display: block;
+    margin: 0.5em 0 2em;
+    padding: 10px;
+}
+
+/*____Adjacent Selector ( + )____*/
+ol > li{
+    width: 300px;
+    background-color: darkcyan;
+    box-shadow: 0px 0px 10px lightcyan;
+    margin: 0.7em 0.5em;
+    color: white;
+    padding: 0.5em;
+}
+h3{
+    padding: 0.5em;
+}
+
+/*____Reference____*/
+cite{
+    position: absolute;
+    display: block;
+    bottom: 10px;
+    left: 40vw;
+    margin: 0.5em;
+}
+

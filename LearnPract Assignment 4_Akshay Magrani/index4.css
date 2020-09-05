@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+/*____Assignment Question with ID Selector____*/
+#question{
+    padding: 20px;
+    width: 800px;
+    height: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    position: fixed;
+    top: 0%;
+    left: 50%;
+    margin-left: -400px;
+    margin-top: +25px;
+    z-index: 2;
+    background-color: aquamarine;
+    opacity: 0.8;
+}
+
+/*____Parent Div Style____*/
+.parentDiv1{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+}
+
+/*____Child Divisions placed Absolutely____*/
+.childDiv1, .childDiv2, .childDiv3, .childDiv4{
+    position: absolute;
+    padding: 15px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: yellowgreen;    
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    border: 5px solid darkgreen;
+}
+.childDiv2{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    background-color: grey;    
+    left: 25%;
+    top: 25%;
+    margin-left: -50px;
+    margin-top: -50px;
+    border: 5px solid black;
+}
+.childDiv3{
+    width: 250px;
+    height: 250px;
+    line-height: 200px;
+    background-color: pink; 
+    left: 75%;
+    top: 75%;
+    margin-left: -125px;
+    margin-top: -125px;
+    border: 5px solid violet;
+}
+/*____Centering the content____*/
+p{
+    font-family: monospace;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
