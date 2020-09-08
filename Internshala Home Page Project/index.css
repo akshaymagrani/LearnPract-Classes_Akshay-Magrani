@@ -15,6 +15,9 @@ header{
     align-items: center;
     margin: 0 auto;
 }
+.iconWrapper svg{
+    margin-left: 1em;
+}
 
 /*____Styling Navigation____*/
 nav{
@@ -105,6 +108,8 @@ main{
     background-color: #0e7cac
 }
 .bannerImage{
-    margin: 50px 0;
+    width: 100%;
+    height: auto;
+    margin: 50px 30px;
     border-radius: 10px;
 }
